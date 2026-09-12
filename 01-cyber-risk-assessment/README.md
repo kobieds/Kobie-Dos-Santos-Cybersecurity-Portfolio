@@ -2,25 +2,49 @@
 
 ## Northstar Health Technologies
 
-**Project Type:** Cyber Risk Management / GRC
-**Assessment Type:** Enterprise Cyber Risk Assessment
-**Environment:** Cloud-based SaaS
-**Primary Framework References:** ISO/IEC 27001, NIST Cybersecurity Framework (CSF), NIST SP 800-30
-**Project Status:** Completed Portfolio Demonstration
+> **Enterprise Cyber Risk Assessment | Cyber Risk Management / GRC**
+
+|                          |                                           |
+| ------------------------ | ----------------------------------------- |
+| **Assessment Type**      | Enterprise Cyber Risk Assessment          |
+| **Environment**          | Cloud-Based SaaS                          |
+| **Organization**         | Fictional Healthcare Technology Company   |
+| **Framework References** | ISO/IEC 27001 · NIST CSF · NIST SP 800-30 |
+| **Project Status**       | Completed Portfolio Demonstration         |
 
 ---
 
 ## 1. Project Overview
 
-This project demonstrates the design and execution of a structured cybersecurity risk assessment for a fictional cloud-based healthcare technology organization.
+This project demonstrates the design and execution of a structured **enterprise cybersecurity risk assessment** for a fictional cloud-based healthcare technology organization.
 
-Northstar Health Technologies is a mid-sized SaaS provider supporting healthcare organizations through cloud-hosted patient management and healthcare workflow applications.
+**Northstar Health Technologies** is a mid-sized SaaS provider supporting healthcare organizations through cloud-hosted patient management and healthcare workflow applications.
 
-The assessment evaluates cybersecurity risks affecting Northstar's information assets, cloud environment, business operations, employees, and third-party dependencies.
+The assessment evaluates cybersecurity risks affecting Northstar's:
+
+* Information assets
+* Cloud environment
+* Business operations
+* Employees and endpoints
+* Third-party dependencies
 
 The project demonstrates a practical risk-management lifecycle:
 
-**Asset Identification → Threat & Vulnerability Identification → Risk Analysis → Risk Evaluation → Risk Treatment → Risk Monitoring**
+```text
+Asset Identification
+        ↓
+Threat & Vulnerability Identification
+        ↓
+Risk Analysis
+        ↓
+Risk Evaluation
+        ↓
+Risk Treatment
+        ↓
+Residual Risk Assessment
+        ↓
+Risk Monitoring
+```
 
 The resulting risk register and treatment plan are designed to provide both operational teams and executive leadership with a structured view of the organization's cybersecurity risk exposure.
 
@@ -30,7 +54,7 @@ The resulting risk register and treatment plan are designed to provide both oper
 
 ### Northstar Health Technologies
 
-Northstar Health Technologies is a fictional healthcare technology company with approximately 250 employees.
+Northstar Health Technologies is a fictional healthcare technology company with approximately **250 employees**.
 
 The organization provides cloud-based software used by healthcare customers to manage workflows and patient-related information.
 
@@ -149,9 +173,11 @@ All assessment activities are based on fictional or synthetically generated info
 
 ## 6. Risk Assessment Methodology
 
-The assessment methodology combines concepts from **ISO/IEC 27001**, the **NIST Cybersecurity Framework**, and **NIST SP 800-30**.
+The assessment methodology combines concepts from **ISO/IEC 27001**, the **NIST Cybersecurity Framework (CSF)**, and **NIST SP 800-30**.
 
-The methodology is designed to demonstrate how cybersecurity risks can be consistently identified, analyzed, evaluated, treated, and monitored.
+The methodology is designed to demonstrate how cybersecurity risks can be consistently:
+
+**Identified → Analyzed → Evaluated → Treated → Monitored**
 
 ### Risk Assessment Process
 
@@ -183,19 +209,45 @@ Risk Monitoring
 
 ## 7. Risk Scoring Methodology
 
-Each identified risk is evaluated using two primary dimensions:
+Each identified risk is evaluated using **two scoring dimensions**:
+
+1. **Likelihood — 1 to 5**
+2. **Impact — 1 to 5**
+
+These two scores are then multiplied to produce the overall **Risk Score — 1 to 25**.
+
+### How the Scoring Works
+
+```text
+Likelihood Score (1–5)
+          ×
+Impact Score (1–5)
+          ↓
+Risk Score (1–25)
+          ↓
+Risk Level
+```
+
+For example:
+
+> **Likelihood = 4**
+> **Impact = 4**
+> **Risk Score = 4 × 4 = 16**
+> **Risk Level = 🟠 High**
+
+The 1–5 scales therefore represent the **individual dimensions of risk**, while the 1–25 scale represents the **calculated overall risk score**.
 
 ### Likelihood
 
 Likelihood represents the estimated probability that a threat could successfully exploit a vulnerability or otherwise cause the identified risk event.
 
 | Score | Rating         | Description                                |
-| ----- | -------------- | ------------------------------------------ |
-| 1     | Rare           | Highly unlikely under normal circumstances |
-| 2     | Unlikely       | Possible but not expected                  |
-| 3     | Possible       | Could reasonably occur                     |
-| 4     | Likely         | Expected to occur under certain conditions |
-| 5     | Almost Certain | Highly likely or expected to occur         |
+| ----: | -------------- | ------------------------------------------ |
+| **1** | Rare           | Highly unlikely under normal circumstances |
+| **2** | Unlikely       | Possible but not expected                  |
+| **3** | Possible       | Could reasonably occur                     |
+| **4** | Likely         | Expected to occur under certain conditions |
+| **5** | Almost Certain | Highly likely or expected to occur         |
 
 ### Impact
 
@@ -210,35 +262,42 @@ Impact represents the potential effect on the organization's:
 * Business operations
 
 | Score | Rating        | Description                                              |
-| ----- | ------------- | -------------------------------------------------------- |
-| 1     | Insignificant | Minimal operational or business effect                   |
-| 2     | Minor         | Limited disruption or loss                               |
-| 3     | Moderate      | Material business impact                                 |
-| 4     | Major         | Significant operational, financial, or compliance impact |
-| 5     | Severe        | Critical business or organizational impact               |
+| ----: | ------------- | -------------------------------------------------------- |
+| **1** | Insignificant | Minimal operational or business effect                   |
+| **2** | Minor         | Limited disruption or loss                               |
+| **3** | Moderate      | Material business impact                                 |
+| **4** | Major         | Significant operational, financial, or compliance impact |
+| **5** | Severe        | Critical business or organizational impact               |
 
 ### Risk Score
-
-The initial risk score is calculated as:
 
 **Risk Score = Likelihood × Impact**
 
 This produces a score between **1 and 25**.
 
-| Score | Risk Level |
-| ----: | ---------- |
-|   1–4 | Low        |
-|   5–9 | Moderate   |
-| 10–16 | High       |
-| 17–25 | Critical   |
+|     Score | Risk Level      | Status                                                  |
+| --------: | --------------- | ------------------------------------------------------- |
+|   **1–4** | 🟢 **Low**      | Generally acceptable with routine monitoring            |
+|   **5–9** | 🟡 **Moderate** | Additional controls or monitoring may be appropriate    |
+| **10–16** | 🟠 **High**     | Requires prioritized treatment and risk-owner attention |
+| **17–25** | 🔴 **Critical** | Requires urgent treatment and management attention      |
 
-Risk ratings are used to support prioritization and treatment decisions rather than to represent a precise mathematical probability of occurrence.
+> **Note:** Risk ratings support prioritization and treatment decisions. They should not be interpreted as precise mathematical probabilities of occurrence.
+
+### Example Risk Calculations
+
+| Likelihood | Impact | Calculation | Risk Score | Risk Level  |
+| ---------: | -----: | ----------: | ---------: | ----------- |
+|          1 |      2 |       1 × 2 |      **2** | 🟢 Low      |
+|          2 |      3 |       2 × 3 |      **6** | 🟡 Moderate |
+|          4 |      4 |       4 × 4 |     **16** | 🟠 High     |
+|          5 |      5 |       5 × 5 |     **25** | 🔴 Critical |
 
 ---
 
 ## 8. Risk Treatment
 
-Identified risks will be evaluated against four primary treatment options:
+Identified risks will be evaluated against four primary treatment options.
 
 ### Mitigate
 
@@ -283,7 +342,14 @@ Key fields include:
 * Residual Risk
 * Status
 
-The register is intended to function as a living risk-management artifact rather than a one-time assessment.
+The register is intended to function as a **living risk-management artifact** rather than a one-time assessment.
+
+Risk status will use the following visual classification:
+
+* 🟢 **Low**
+* 🟡 **Moderate**
+* 🟠 **High**
+* 🔴 **Critical**
 
 ---
 
@@ -302,7 +368,9 @@ Each treatment activity will include:
 * Residual risk
 * Evidence requirements
 
-Treatment activities will prioritize risks based on business impact, threat exposure, control weaknesses, and organizational risk tolerance.
+Treatment activities will prioritize risks based on:
+
+**Business Impact + Threat Exposure + Control Weakness + Organizational Risk Tolerance**
 
 ---
 
@@ -370,8 +438,6 @@ The purpose of the project is to demonstrate the ability to translate cybersecur
 
 ## 14. Framework Alignment
 
-The assessment references concepts from the following frameworks and standards:
-
 ### ISO/IEC 27001
 
 Used as a reference for information security risk management, organizational controls, risk treatment, and continual improvement.
@@ -384,15 +450,14 @@ Used to provide a broader cybersecurity governance and risk-management perspecti
 
 Used as a reference for structured risk assessment concepts, including threat, vulnerability, likelihood, impact, and risk determination.
 
-This project does not claim formal certification or compliance with any of these frameworks.
+> **Important:** This project does not claim formal certification or compliance with any of these frameworks.
 
 ---
 
 ## 15. Portfolio Disclaimer
 
-The project is a fictional or synthetically recreated demonstration inspired by real-world cybersecurity, GRC, risk management, compliance, and security assessment work performed in professional environments.
+This project is a **fictional or synthetically recreated demonstration** inspired by real-world cybersecurity, GRC, risk management, compliance, and security assessment work performed in professional environments.
 
 The methodologies, workflows, assessment approaches, and deliverable structures reflect practical experience, while the organization, systems, data, scenarios, findings, and other project-specific details have been created or modified for portfolio and educational purposes.
 
-No confidential, proprietary, client, or employer information is included in this repository.
-
+**No confidential, proprietary, client, or employer information is included in this repository.**
