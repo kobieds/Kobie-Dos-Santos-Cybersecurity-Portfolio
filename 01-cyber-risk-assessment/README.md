@@ -4,7 +4,6 @@
 
 > **Enterprise Cyber Risk Assessment | Cyber Risk Management / GRC**
 
-|                          |                                           |
 | ------------------------ | ----------------------------------------- |
 | **Assessment Type**      | Enterprise Cyber Risk Assessment          |
 | **Environment**          | Cloud-Based SaaS                          |
