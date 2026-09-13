@@ -353,6 +353,43 @@ Risk status will use the following visual classification:
 
 ---
 
+## Executive Risk Summary
+
+The executive risk summary provides a management-level overview of the cybersecurity assessment and translates the detailed risk analysis into an executive-focused view of organizational risk exposure.
+
+The summary highlights:
+
+* Overall inherent and residual risk exposure
+* Highest-priority cybersecurity risks
+* Key cybersecurity risk themes
+* Risk treatment priorities
+* Residual risk considerations
+* Recommended monitoring activities
+* Management-level actions and priorities
+
+### Executive Summary Deliverable
+
+**[View Northstar Executive Risk Summary (PDF)](./Northstar-Executive-Risk-Summary.pdf)**
+
+The executive summary is intended to demonstrate how detailed cybersecurity risk assessment results can be communicated to executive leadership and other business stakeholders in a concise, decision-oriented format.
+
+### Assessment Results
+
+The completed assessment evaluated:
+
+* **20** organizational assets
+* **15** cybersecurity risks
+* **6** Critical inherent risks
+* **9** High inherent risks
+* **10** High residual risks
+* **5** Moderate residual risks
+
+The assessment identified significant risk exposure across areas including identity and access management, application and API security, cloud configuration, credential and secrets management, operational resilience, vulnerability management, and third-party risk.
+
+The assessment applies a structured risk treatment process to demonstrate how identified risks can be reduced through security controls, remediation activities, monitoring, and ongoing risk-owner oversight.
+
+---
+
 ## 10. Risk Treatment Plan
 
 The treatment plan will translate prioritized risks into actionable remediation activities.
