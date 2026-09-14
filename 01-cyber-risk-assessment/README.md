@@ -369,7 +369,7 @@ The summary highlights:
 
 ### Executive Summary Deliverable
 
-**https://github.com/kobieds/Kobie-Dos-Santos-Cybersecurity-Portfolio/blob/acc83b91203aa4b774956eb08b4383a193a35935/01-cyber-risk-assessment/Northstar%20Health%20Technologies%20%E2%80%94%20Executive%20Cyber%20Risk%20Summary.pdf**
+**[View Executive Risk Summary (PDF)](https://github.com/kobieds/Kobie-Dos-Santos-Cybersecurity-Portfolio/blob/ff106b47d647b26ef73034b8a8fe5426dcc65534/01-cyber-risk-assessment/Northstar%20Health%20Technologies%20%E2%80%94%20Executive%20Cyber%20Risk%20Summary.pdf)**
 
 The executive summary is intended to demonstrate how detailed cybersecurity risk assessment results can be communicated to executive leadership and other business stakeholders in a concise, decision-oriented format.
 
