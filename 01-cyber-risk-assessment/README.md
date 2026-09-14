@@ -369,7 +369,7 @@ The summary highlights:
 
 ### Executive Summary Deliverable
 
-**01-cyber-risk-assessment/Northstar Health Technologies — Executive Cyber Risk Summary.pdf**
+**View-01-cyber-risk-assessment/Northstar Health Technologies — Executive Cyber Risk Summary.pdf**
 
 The executive summary is intended to demonstrate how detailed cybersecurity risk assessment results can be communicated to executive leadership and other business stakeholders in a concise, decision-oriented format.
 
