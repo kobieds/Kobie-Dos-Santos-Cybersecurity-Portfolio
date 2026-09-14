@@ -2,4 +2,4 @@
 
 ## Axiom AI Technologies
 
-> **Portfolio Project | Security Controls Assessment / GRC**
+> **Security Controls Assessment | GRC / Compliance**
