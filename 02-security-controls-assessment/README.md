@@ -67,7 +67,7 @@ The assessment focused on:
 
 ### 1. Security Controls Assessment
 
-[View Control Assessment](./Axiom-AI-Control-Assessment.xlsx)
+[View Control Assessment](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fkobieds%2FKobie-Dos-Santos-Cybersecurity-Portfolio%2Frefs%2Fheads%2Fmain%2F02-security-controls-assessment%2FAxiom-AI-Control-Assessment.xlsx&wdOrigin=BROWSELINK)
 
 The assessment workbook contains the control evaluation,
 assessment status, findings, severity classifications,
