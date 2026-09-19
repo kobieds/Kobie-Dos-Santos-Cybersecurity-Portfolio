@@ -1,10 +1,8 @@
-# Security Controls Assessment & Gap Analysis
-
 ## Axiom AI Technologies
 
 > **Security Controls Assessment | GRC / Compliance**
 
-# Enterprise Security Controls Assessment | Axiom AI
+# Enterprise Security Controls Assessment & Gap Analysis | Axiom AI
 
 ## Project Overview
 
