@@ -83,7 +83,7 @@ tracking.
 
 ### 3. Executive Summary
 
-[View Executive Summary](./Axiom-AI-Executive-Summary.docx)
+[View Executive Summary](02-security-controls-assessment/AXIOM AI TECHNOLOGIES Gap Analysis and Assessment Executive Summary.pdf)
 
 The executive summary provides a leadership-level overview
 of assessment results, identified findings, and the current
