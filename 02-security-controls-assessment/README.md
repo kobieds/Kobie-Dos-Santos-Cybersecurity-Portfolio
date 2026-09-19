@@ -83,7 +83,7 @@ tracking.
 
 ### 3. Executive Summary
 
-[View Executive Summary](02-security-controls-assessment/AXIOM AI TECHNOLOGIES Gap Analysis and Assessment Executive Summary.pdf)
+[View Executive Summary](https://github.com/kobieds/Kobie-Dos-Santos-Cybersecurity-Portfolio/blob/9bbb6d534d67366dca72c835831cd4368fdd0b85/02-security-controls-assessment/AXIOM%20AI%20TECHNOLOGIES%20Gap%20Analysis%20and%20Assessment%20Executive%20Summary.pdf)
 
 The executive summary provides a leadership-level overview
 of assessment results, identified findings, and the current
