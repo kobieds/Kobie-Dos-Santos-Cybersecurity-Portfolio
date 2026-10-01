@@ -92,28 +92,6 @@ The following artifacts will be developed as part of this workstream:
 
 ---
 
-## Planned Repository Structure
-
-```text
-03-isms-implementation/
-│
-├── README.md
-│
-├── Axiom-AI-ISMS-Scope.docx
-│
-├── Axiom-AI-Information-Security-Policy.docx
-│
-├── Axiom-AI-ISMS-Objectives.xlsx
-│
-├── Axiom-AI-Statement-of-Applicability.xlsx
-│
-├── Axiom-AI-ISMS-Roles-and-Responsibilities.docx
-│
-└── Axiom-AI-ISMS-Implementation-Summary.docx
-```
-
----
-
 ## ISMS Lifecycle
 
 The Axiom AI ISMS is designed around a continual improvement lifecycle:
